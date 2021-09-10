@@ -1,5 +1,4 @@
 import Container from "../components/Container";
-import Counter from "../components/Counter";
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
