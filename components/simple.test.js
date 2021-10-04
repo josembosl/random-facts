@@ -8,6 +8,6 @@ describe('sum()', () => {
 
 describe('sum2()', () => {
     it('should return 5 if given 2 and 3 ', () => {
-      expect(sum(2, 2)).toBe(5)
+      expect(sum(2, 2)).toBe(4)
     })
   })
