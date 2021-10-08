@@ -20,7 +20,7 @@ export default function Container() {
     return (
         <div className={styles.grid}>
             <a onClick={() => { newRandomFact() }} className={styles.card}>
-                <p>{JSON.stringify(fact.text)}</p>
+                <p>{fact.text}</p>
             </a>
         </div>
     )
