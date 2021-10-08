@@ -19,9 +19,9 @@ export default function Container() {
 
     return (
         <div className={styles.grid}>
-            <a onClick={() => { newRandomFact() }} className={styles.card}>
+            <button onClick={() => { newRandomFact() }} className={styles.card}>
                 <p>{fact.text}</p>
-            </a>
+            </button>
         </div>
     )
 }
