@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/mnt/c/work/git/test-app/__tests__/test.test.js">
+    <testCase name="truthy operators" duration="2"/>
+  </file>
+</testExecutions>
