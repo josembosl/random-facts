@@ -7,9 +7,6 @@ test("truthy operators", () => {
   
     // name has a valid value
     expect(name).toBeTruthy()
-    
-    // pass - null treated as false or negative
-    expect(n).toBeFalsy()
   
     // 0 - treated as false
     expect(0).toBeFalsy()
