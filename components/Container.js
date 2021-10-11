@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import styles from '../styles/Home.module.css'
+import React, { useEffect, useState } from 'react';
+import styles from '../styles/Home.module.css';
 import getRandomFact from '../pages/api/FactsHandler';
 
 export default function Container() {
-
-    const [fact, setFact] = useState("");
+    const [fact, setFact] = useState('');
 
     function newRandomFact() {
         getRandomFact().then((data) => {
@@ -16,12 +15,15 @@ export default function Container() {
         newRandomFact();
     }, []);
 
-
     return (
         <div className={styles.grid}>
-            <button onClick={() => { newRandomFact() }} className={styles.card}>
+            <button
+                onClick={() => {
+                    newRandomFact();
+                }}
+                className={styles.card}>
                 <p>{fact.text}</p>
             </button>
         </div>
-    )
+    );
 }
